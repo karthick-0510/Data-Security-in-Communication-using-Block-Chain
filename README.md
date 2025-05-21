@@ -1,5 +1,84 @@
-# Data-Security-in-Communication-using-Block-Chain
+# 🛰️ Secure Satellite Communication using Blockchain & QKD Protocol
 
-This project used to secure the satellite data using block chain and safe accessing of data.
+## 🌐 Overview
 
-Satellite communication plays a vital role in developing global communication networks. It has recently gained attention as a solution to the limitations of terrestrial networks, which suffer from reduced stability and coverage. However, satellite communication faces challenges such as low data processing capacity, limited storage, and weak security. Illegal access has become a major concern. Due to physical constraints like limited power and area, satellites struggle with data processing and security, making them vulnerable to data alteration or intrusion. To address these issues, this project proposes a satellite communication network using blockchain technology and the Quantum Key Distribution (QKD) protocol for authentication and privacy. The architecture includes both traditional and resource constrained devices connected via a wireless heterogeneous network. Communication involves registration, authentication, and revocation processes. The satellite sends data to the terrestrial base station, which logs key parameters on the distributed blockchain and removes rogue node certificates. This proposed system enhances security for 6G and beyond networks, IoT, autonomous vehicles, and other advanced applications.
+Satellite communication plays a vital role in developing **global communication networks**. It has gained traction as an effective alternative to terrestrial networks, which often face issues like limited coverage and stability.
+
+However, satellite networks encounter significant challenges:
+- 🧠 Low data processing capacity  
+- 💾 Limited storage  
+- 🔓 Weak security infrastructure  
+- 🚨 Illegal access and intrusion risks  
+
+To tackle these issues, this project proposes a **secure satellite communication framework** using:
+
+- 🔗 **Blockchain Technology** for tamper-proof logging  
+- 🧬 **Quantum Key Distribution (QKD)** for secure authentication and encryption  
+
+---
+
+## 🏗️ Architecture
+
+This project incorporates:
+- 🛰️ **Satellites** with constrained resources (limited power and space)  
+- 📡 **Terrestrial base stations**  
+- 📶 A **wireless heterogeneous network**  
+- 📲 Both **traditional and resource-constrained devices**
+
+---
+
+## 🔐 Core Features
+
+1. 👥 **User & Device Registration**  
+2. ✅ **Authentication using MAC address and QKD-simulated hashing**  
+3. 🛑 **Revocation of rogue devices**  
+4. 🧾 **Blockchain-inspired logging of communication events**
+
+---
+
+## ⚙️ How It Works
+
+- 📤 Satellite sends data to the terrestrial station  
+- 🗃️ Base station logs communication details in a **distributed blockchain ledger**  
+- 🚫 Unauthorized devices are detected and blocked  
+- 🔑 Encryption keys are securely distributed using simulated **Quantum Key Distribution**
+
+---
+
+## 🚀 Benefits
+
+- 🔐 Enhanced **Security & Privacy** for next-gen networks  
+- 🌍 Better **coverage & reliability** over traditional terrestrial systems  
+- 🤖 Supports **IoT**, **6G**, and **Autonomous Vehicles**  
+- 🔍 Detects and mitigates attacks in real-time  
+
+---
+
+## 🧠 Technologies Used
+
+- 🐍 Python (Flask)
+- 🗃️ MySQL
+- 📊 SHA-1 Hashing for file integrity
+- 🔗 Blockchain concept simulation
+- 🖥️ MAC Address-based authentication
+
+---
+
+## 📂 Modules
+
+- `mac.py`: Extracts and formats the system MAC address  
+- `Main.py`: Main backend logic including routing, user management, file upload/download, and verification  
+- `satcom.sql`: SQL schema for managing users, data logs, and blockchain-like records  
+
+---
+
+## 📜 License
+
+This project is for **academic and research purposes**. Contributions are welcome to make it more robust and production-ready. 🌟
+
+---
+
+## 🙌 Acknowledgements
+
+- 🚀 Inspired by the need for secure communication in **6G and space technology**  
+- 👨‍💻 Built as a part of undergraduate AI/ML research  
